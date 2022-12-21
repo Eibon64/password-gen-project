@@ -4,6 +4,13 @@ var lowLetter = ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "A", "S", "D"
 var number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 var symbol = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "=", "+", "?"];
 
+lengthPrompt = prompt("Pick a number between 8 and 128 for your password");
+upPrompt = prompt("Would you like to include upper case letters: yes or no?");
+lowPrompt = prompt("Would you like to include lower case letters: yes or no?");
+numPrompt = prompt("Would you like to include numbers: yes or no?");
+symbPrompt = prompt("would you like to include symbols: yes or no?");
+
+
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
